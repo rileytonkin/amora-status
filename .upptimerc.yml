@@ -11,8 +11,8 @@ sites:
     headers:
       - "apikey: $SUPABASE_ANON_KEY"
 
-assignees:
-  - rileytonkin
+# No assignees — notifications consolidated into Amora Ops Watchdog emails
+assignees: []
 
 status-website:
   baseUrl: /amora-status
