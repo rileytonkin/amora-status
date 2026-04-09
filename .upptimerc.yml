@@ -10,6 +10,9 @@ sites:
     url: https://bbsuyitxkgkouhiyvyqn.supabase.co/rest/v1/
     headers:
       - "apikey: $SUPABASE_ANON_KEY"
+    expectedStatusCodes:
+      - 200
+      - 401
 
 # No assignees — notifications consolidated into Amora Ops Watchdog emails
 assignees: []
